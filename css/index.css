@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+/*font-family: 'Open Sans', sans-serif;*/
+
+
+/*Topo*/
+body{
+    background-image: linear-gradient(to bottom,#4B0082, #6A5ACD);
+}
+
+header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 20%;
+    box-sizing: 0 10px 8px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#logoNasa{
+    width: 20%;
+
+
+}
+
+#ladoDireito{
+    width: 40%;
+    height: 100px;
+
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+    
+}
+
+#data{
+    width: 68%;
+    height: 40px;
+    border-radius: 8px 0 0 8px;
+    margin-right: 0;
+    border: 1px solid black;
+    box-shadow: 0 5px 8px black;
+    font-size: 20px;
+    text-align: center;
+   
+
+}
+
+#botaoEnviar{
+    width: 30%;
+    height: 43px;
+    border-radius: 0 8px 8px 0;
+    margin-left: -5;
+    border: 1px solid black;
+    box-shadow: 5px 5px 8px black;
+    font-size: 20px;
+ 
+
+}
+
+/*Corpo*/
+
+main{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo, #dataEscolhida{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#dataEscolhida{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#fotoDoDia{
+    width: 90%; 
+    margin-top: 20px;
+
+}
+
+#descricao{
+    text-align: justify;
+    margin: 30px 50px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    
+}
+
+/*rodape*/
+
+footer{
+    width: 100%;
+    height: 20px;
+    padding: 25px;
+    background-color: white;
+
+    
+}
+
+#rodape{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #4B0082;
+    font-weight: bold;
+
+
+}
